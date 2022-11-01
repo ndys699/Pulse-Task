@@ -1,3 +1,4 @@
+
 import React from "react";
 
 function SignUp() {
@@ -42,3 +43,4 @@ function SignUp() {
 }
 
 export default SignUp;
+
