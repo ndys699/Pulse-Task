@@ -2,7 +2,14 @@ import React from 'react'
 
 function Login() {
   return (
-    <div></div>
+    <form>
+      <div>
+        <input placeholder="Username"></input>
+        </div>
+        <div>
+        <input placeholder="Password"></input>
+     </div>
+    </form>
    
   )
 }
