@@ -1,38 +1,287 @@
-.App {
+/*-------------------------------SIGN IN FORM----------------------------------------------------*/
+body,.bodyLayout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+}
+.signInForm{          /* Sign In form BackGround & Alignment Style*/
+  background-color: rgba(70, 149, 239, 0.718);
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 15px;
+
+}
+.logo{
+  width: 300px;
+}
+.text-SignIn{       /* Sign In text Style*/
+  color: navy;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.input{      /* Input Box Style*/
+  width: 350px;
+  height: 40px;
+  margin-top: 10px;
+  border: 0px solid rgba(240, 255, 255, 0.788);
+  background-color:rgba(240, 255, 255, 0.788);
+  border-radius: 5px;
+}
+
+.button-SignIn{       /* Log In button Style*/
+background-color: rgba(184, 241, 241, 0.788);
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 0px;
+font-family: calibri;
+font-size: 1.2rem;
+font-weight: bold;
+color: navy;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.input-CheckBox{    /* Check Box Style*/
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  
+}
+.label-CheckBox{    /* Check Box Label Style*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.alignCenter{
   text-align: center;
 }
+.flex-Row{      /* Button & Check Box & Forgot Password Row Style*/
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.signInText{
+  color: navy;
+  font-family: calibri;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.createAccount{
+  background-color: rgb(28, 168, 207);
+  width: 400px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+}
+.hover:hover{     /* Hover Style to Forgot Password and Create An Account*/
+  text-decoration: underline;
+}
+.button-SignIn:hover{
+  opacity: 0.6;
+}
+/*-------------------------------SIGN UP FORM----------------------------------------------------*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signUpForm{          /* Sign Up form BackGround & Alignment Style*/
+  background-color: rgba(70, 149, 239, 0.718);
+  width: 400px;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageUpload{
+  width: 250px;
+  height: 250px;
+  background-color: aliceblue;
+  border: 2px solid aliceblue;
+}
+.imageDiv{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/*--------------------Daily Status Update Form*/
+
+
+td{
+  border: 1px solid black;  
+  border-collapse: collapse;
+  
+}
+.tableStyle{
+  background-color: snow;
+}
+.timePeriod{
+  width: 400px;
+  height: 70px;
+  text-align: right;
+  padding-right: 20px;
+}
+.activity{
+  width: 900px;
+  height: 50px;
+  
+}
+.activityInput{
+  width: 700px;
+  height: 30px;
+  margin-left: 15px;
+  border: 1px solid gray;
+}
+
+/*-------------------------------CREATE REQUEST STYLE--------------------------*/
+
+.label-CreateRequest{
+  width: 200px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  
+}
+.input-CreateRequest{
+  width: 500px;
+  background-color: snow;
+  margin-top: 10px;
+}
+.row-CreateRequest{
+display: flex;
+}
+.layout-CreateRequest{
+  width: 1400px;
+  height: 350px;
+  border: 1px solid rgb(95, 15, 121);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+}
+.text-CreateRequest{
+  display: flex;
+  align-items: center;
+  background-color: rgb(95, 15, 121);
+  height: 50px;
+  margin-bottom: 0px;
+  font-size: 1.55rem;
   color: white;
+  padding-left: 10px;
+}
+.button-Submit-CreateRequest{
+background-color: rgba(95, 15, 121,0.9);
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 0px;
+font-family: calibri;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.button-Submit-CreateRequest:hover{
+  opacity: 0.6;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*------------------------APPLY LEAVE FORM-----------------*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layout-ApplyLeave{
+  width: 1400px;
+  height: 400px;
+  border: 1px solid rgb(95, 15, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
+.label-ApplyLeave{
+  
+  width: 200px;
+  display: inline-block;
+  padding-right: 30px;
+  text-align: right;
+  margin-left: 100px;
+}
+.input-ApplyLeave{
+  width: 500px;
+  background-color: snow;
+  margin-top: 20px;
+  
+  }
+
+.row-ApplyLeave{
+  display: flex;
+  margin-left: 330px;
+
+}
+.button-ApplyLeave{
+  background-color: rgba(95, 15, 121,0.9);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  font-family: calibri;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 100px;
+  
+  
+  }
+  .button-ApplyLeave:hover{
+    opacity: 0.6;
+  }
+  .input-Below-Text{
+    margin-top: 5px;
+    margin-left: 330px;
+    font-size: 0.8rem;
+
+  }
+
+  .list{
+    list-style-type: none;
+    display: flex;
+    width: 1400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    background-color: aqua;
+    font-size: 1.5rem;
+  }
+  .link:hover{
+    color: tomato;
+  }
