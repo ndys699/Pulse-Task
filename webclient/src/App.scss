@@ -1,6 +1,11 @@
-@import "_Attendance.scss";
+@import "./Styles/Attendance";
+@import "./Styles/CreateRequest";
+@import "./Styles/CreateTask";
+@import "./Styles/DailyStatusUpdate";
+@import "./Styles/DashBoardA";
 
 
-.heading{
+.Appfile{
     background-color: aqua;
 }
+

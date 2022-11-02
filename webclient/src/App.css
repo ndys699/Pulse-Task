@@ -1,12 +1,27 @@
-
-.ding {
+.Attendance {
   background-color: aquamarine;
 }
 
-.heading {
+.request {
   background-color: aqua;
 }
 
+.task {
+  background-color: aquamarine;
+}
 
+.ding {
+  background-color: aliceblue;
+}
 
+.DailyStatusUpdate {
+  background-color: aqua;
+}
 
+.DashBoardA {
+  background-color: aqua;
+}
+
+.Appfile {
+  background-color: aqua;
+}/*# sourceMappingURL=App.css.map */
