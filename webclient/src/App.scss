@@ -8,10 +8,12 @@
 @import "./Styles/Login";
 @import "./Styles/SignUp";
 @import "./Styles/SubmitTask";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
 
-.Appfile{
-    background-color: aqua;
+
+.App{
+    align-items: center;
 }
 
