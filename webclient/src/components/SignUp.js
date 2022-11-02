@@ -36,6 +36,11 @@ function SignUp() {
           <div>
             <input placeholder = "Re-type Your Password"></input>
           </div>
+          
+          <div>
+            <button>Submit</button>
+            <button>Back</button>
+          </div>
         </form>
       </div>
     </div>
