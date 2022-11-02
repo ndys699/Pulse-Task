@@ -14,7 +14,7 @@ function App() {
     <div className="App">
  <BrowserRouter>
  <nav>
-  <Link to="/">Loginn</Link>
+  <Link to="/">Login</Link>
   <Link to="/SignUp">SignUp</Link>
   <Link to="/Attendance">Attendance</Link>
   <Link to="/Create Request">Create a Request</Link>
